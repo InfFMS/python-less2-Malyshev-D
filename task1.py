@@ -1,16 +1,8 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+a = int(input())
+m1 = 30 + 55 * (a-1)
+m2 = m1 + 45
+h1 = (8 + m1 // 60) % 24
+m1 = m1 % 60
+h2 = (8 + m2 // 60) % 24
+m2 = m2 % 60
+print('Время начала урока - ', h1, ':', m1, ' Время конца - ', h2, ':', m2, sep = '')
